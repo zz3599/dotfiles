@@ -87,9 +87,12 @@ alias la='ls -A'
 alias l='ls -CF'
 alias e='emacs -nw'
 alias cse506='ssh -p 130 cse506@130.245.30.219'
-alias droppy='start-stop-daemon -b -o -c zhzzhou -S -x /home/zhzzhou/.dropbox-dist/dropboxd'
+alias droppy='~/.dropbox-dist/dropboxd'
 alias q='make qemu-nox-gdb'
 alias gm='gdb-multiarch'
+alias ack='ack-grep'
+
+
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
