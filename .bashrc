@@ -87,6 +87,7 @@ alias la='ls -A'
 alias l='ls -CF'
 alias e='emacs -nw'
 alias cse506='ssh -p 130 cse506@130.245.30.219'
+alias glasscapital='ssh zhzzhou@glasscapital.com -p 1891'
 alias droppy='~/.dropbox-dist/dropboxd'
 alias q='make qemu-nox-gdb'
 alias gm='gdb-multiarch'
@@ -115,3 +116,12 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 export PYTHONPATH=/usr/local/lib/python2.7/site-packages
+export HADOOP_HOME=/usr/local/hadoop
+export JAVA_HOME=/usr/lib/jvm/java-7-oracle
+
+PATH=$PATH:/home/brook/Downloads/XSB/bin
+PATH=$PATH:/home/brook/bin
+export PATH
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
