@@ -9,5 +9,6 @@
 (autoload 'mercury-mode "prolog" "Major mode for editing Mercury programs." t)
 (setq prolog-system 'swi)
 (setq auto-mode-alist (append '(("\\.pl$" . prolog-mode)
+                                ("\\.P$" . prolog-mode)
                                 ("\\.m$" . mercury-mode))
                                auto-mode-alist))
