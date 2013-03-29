@@ -88,6 +88,8 @@ alias l='ls -CF'
 alias e='emacs -nw'
 alias cse506='ssh -p 130 cse506@130.245.30.219'
 alias glasscapital='ssh zhzzhou@glasscapital.com -p 1891'
+alias glass='ssh zhzzhou@glasscapital.com -p1891 -vL 22229:192.168.1.16:3389'
+alias rdesk='rdesktop -g 1440X900 localhost:22229'
 alias droppy='~/.dropbox-dist/dropboxd'
 alias q='make qemu-nox-gdb'
 alias gm='gdb-multiarch'
@@ -119,7 +121,7 @@ export PYTHONPATH=/usr/local/lib/python2.7/site-packages
 export HADOOP_HOME=/usr/local/hadoop
 export JAVA_HOME=/usr/lib/jvm/java-7-oracle
 
-PATH=$PATH:/home/brook/Downloads/XSB/bin
+PATH=$PATH:/usr/local/src/XSB/bin
 PATH=$PATH:/home/brook/bin
 export PATH
 ### Added by the Heroku Toolbelt
